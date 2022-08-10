@@ -1,43 +1,41 @@
 *{
-    box-sizing: border-box;
     margin: 0;
     padding: 0;
-    border: 0;
 }
 
-.header{
-    background-image: url(./some.jpg);
-    height: 90vh;
-    max-width:100% ;
+#header{
+    display:flex ;
+    justify-content: space-between;
+    background-color: chartreuse;
+    padding:10px ;
 }
 
-.navbar{
-    background-color: rgb(255, 0, 0);
-    justify-content: center;
-    display: flex;
-    gap:54px;
-    padding: 20px 0px;
-    
-}
-#name{
- padding:10px 0 20px 0px;
- text-align: center;
- color: blue;
-}
-a{
-    color: black;
-}
-a:hover{
-    color: gainsboro;
+#container{
+    display:flex ;
+   justify-content: space-between; 
 }
 
-.footer{
-  
+#about{
+    font-size: 20px;
+}
+
+#aaa{
+    display:flex;
+    flex: 20px;
+    /* justify-content: center; */
+    gap: 24px;
+}
+
+#visil{
+    background-color: black;
+    color: aliceblue;
+    padding: 20px;
     text-align: center;
-   background-color: rgb(1, 120, 23);
-   max-height: 10vh;
 }
-/* 
-#foot{
-    padding-top: 5rem;
-} */
+
+#footer{
+    position: relative;
+    text-align: center;
+    align-items: center;
+    top: 90%;
+}

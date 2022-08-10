@@ -8,23 +8,69 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="header">
-        <div class="navbar">
-            <div><a href="./index.html">HOME</a></div>
-            <div><a href="./about.html">ABOUT</a></div>
-            <div><a href="#">CONTACT US</a></div>
-            <div><a href="#">HELP</a></div>
-        </div>
-        <div>
-        <h2 id="name">Athul Benny</h2>
-        <p style="color:white ;">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iste, optio nihil! Pariatur magni consectetur optio voluptates quis, animi dolorem! Maxime sequi itaque eius ut iste voluptatem pariatur aspernatur dolorem quaerat! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iste, optio nihil! Pariatur magni consectetur optio voluptates quis, animi dolorem! Maxime sequi itaque eius ut iste voluptatem pariatur aspernatur dolorem quaerat! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iste, optio nihil! Pariatur magni consectetur optio voluptates quis, animi dolorem! Maxime sequi itaque eius ut iste voluptatem pariatur aspernatur dolorem quaerat! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iste, optio nihil! Pariatur magni consectetur optio voluptates quis, animi dolorem! Maxime sequi itaque eius ut.
-             iste voluptatem pariatur aspernatur dolorem quaerat! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iste, optio nihil! Pariatur magni consectetur optio voluptates quis, animi dolorem! Maxime sequi itaque eius ut iste voluptatem pariatur aspernatur dolorem quaerat!Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-             Iste, optio nihil! Pariatur magni consectetur optio voluptates quis, animi dolorem! Maxime sequi itaque eius ut iste voluptatem pariatur aspernatur dolorem quaerat! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iste, optio nihil! Pariatur magni consectetur optio voluptates quis, animi dolorem! Maxime sequi itaque eius ut iste voluptatem pariatur aspernatur dolorem quaerat!Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iste, optio nihil! Pariatur magni consectetur optio voluptates quis, animi dolorem! Maxime sequi itaque eius ut iste voluptatem pariatur aspernatur dolorem quaerat!Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iste, optio nihil! Pariatur magni consectetur optio voluptates quis, animi dolorem! Maxime sequi itaque eius ut iste voluptatem pariatur aspernatur dolorem quaerat! Lorem, ipsum dolor sit amet. 
-             Consectetur adipisicing elit. Iste, optio nihil! Pariatur magni consectetur optio voluptates quis, animi dolorem! Maxime sequi itaque eius ut iste voluptatem pariatur aspernatur dolorem quaerat! </p>
-    </div></div>
-   
-    <div class="footer">
-        <p id="foot"><strong>copyright &copy; 2022</strong></p>
+    <div id="header">
+        <div><a href="#">home</a></div>
+        <div><a href="./about.html">about</a></div>
+        <div><a href="./contact.html">contact</a></div>
+        <!-- <div><a href="#">home</a></div> -->
     </div>
+    <div id="visil">
+        <h1 id="visi"  style="color: red;">ATHUL BENNY</h1>
+    </div>
+    <div id="container">
+        <div id="img">
+            <img src="./img11.jpg" alt="img" style="height: 200px;width: 200px;">
+        </div>
+      
+            <div>
+            <h2>About me</h2>
+            <p id="about">I am pursuing <b>computer science engineering</b> at <a href="https://gcek.ac.in">government college of engineering kannur</a>.
+                Currently I'm an S4 student.
+            </p>
+            </div><br>
+            </div>
+            <div id="aaa">
+                <div style="background-color:darkorange ;">
+                    <h3><u> AREA OF INTEREST</u></h3>
+                    <ul style="padding:10px ;">
+                        <li>AI/ML</li>
+                        <li>FLUTTER APP</li>
+                        <li>WEB DEVELOPMENT</li>
+                    </ul>
+                </div>
+                <div style="background-color: darkturquoise;">
+                    <h3><u> AREA OF MASTER</u></h3>
+                    <ul style="padding:10px ;">
+                        <li>HTML CSS JS</li>
+                        <li>FLUTTER </li>
+                        <li>PYTHON</li>
+                        <li>JAVA</li>
+                        <li>c</li>
+                    </ul>
+                </div>
+            
+            </div>
+     
+   
+    
+    <div id="footer">
+        <p>copyright &copy; 2022</p>
+    </div>
+    
 </body>
+<script>
+    var name,x,s=0;
+    setInterval(()=>{
+        x=a();
+        var name=document.getElementById('visi');
+        name.style.visibility=x;
+    },1000);
+    function a(){
+        if(s==0){s=1;
+            return "hidden";
+        }else{s=0;
+            return "visible";
+        }
+    }
+</script>
 </html>
